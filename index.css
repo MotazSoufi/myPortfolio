@@ -1,0 +1,287 @@
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: white; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #014441; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #01252A; 
+}
+
+.navigationBar {
+    color:white;
+    position: fixed;
+    background-color:#01252A;
+    width: 100%;
+    font-family: Work Sans;
+    z-index: 10;
+    top:0;
+}
+ .navigationBar ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap:50px;
+    align-items: center;
+    text-align: center;
+    font-size:20px;
+ }
+
+ li a {
+    color: white;
+    text-decoration: none;
+ }
+
+ .myPicture {
+    width:450px;
+    border-radius: 10px;
+    position: absolute;
+    left:58%;
+    top:22%;
+ }
+
+ .header {
+    font-family: Work Sans;
+    font-size:44px;
+    font-weight: bold;
+    color:#014441;
+    width:100%;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom:40px;
+    letter-spacing: 5px;
+ }
+
+ .contactInfo {
+    font-family: Work Sans;
+    font-size:28px;
+    color:#014441;
+    width:600px;
+    
+    background-color: #014441;
+    color:#97e0dc;
+    padding:50px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height:60px;
+ }
+
+ .card {
+    background-color: #014441; 
+    width:600px; 
+    height:370px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 20px;
+ }
+
+ .card img {
+    height:100px;
+    padding-left:20px;
+ }
+
+ .card div {
+    padding-left:25px;
+    color:#97e0dc;
+    font-family: Work Sans;
+    font-size:16px;
+    width:320px;
+ }
+
+ .skills {
+    position: relative;
+    left:-25px;
+ }
+
+ .skillsSideG {
+    position: relative;
+    top:100%;
+    left:25px;
+    transition: top 0.3s;
+ }
+
+ .skillsSideL {
+    position: relative;
+    top:100%;
+    left:25px;
+    transition: top 0.3s;
+ }
+
+ .skillsSideG span{
+    color:#01252A;
+    background-color: #97e0dc;
+    border-radius: 10px;
+    padding: 5px;
+    line-height: 40px;
+ }
+
+ .skillsSideL span{
+    color:#01252A;
+    background-color: #97e0dc;
+    border-radius: 10px;
+    padding: 5px;
+    line-height: 40px;
+ }
+
+ .skills span {
+    color:#01252A;
+    background-color: #97e0dc;
+    border-radius: 10px;
+    padding: 5px;
+    line-height: 40px;
+ }
+
+
+ .closeButton {
+    position: relative;
+    z-index: 41;
+    width:50px;
+    cursor: pointer;
+    left:95%;
+    top:20px;
+ }
+
+ .websiteInfo {
+    position: fixed;
+    z-index: 40;
+    top:100%;
+    width:100%;
+    height:100%;
+    background-color: white;
+    transition: top 0.3s;
+    font-family: Work Sans;
+    color:#01252A;
+ }
+
+ .sideBar{
+    position: absolute;
+    z-index: 41;
+    width:350px;
+    height:100%;
+    background-color: #014441;
+    top:0;
+ }
+
+ .gamegridLogo {
+    position: absolute;
+    z-index: 42;
+    width:250px;
+    top:100%;
+    left:25px;
+    transition: top 0.3s;
+ }
+
+ .gContent {
+    position: absolute;
+    z-index: 41;
+    width:800px;
+    height:600px;
+    top:100%;
+    left:500px;
+    transition: top 0.3s;
+    overflow-y: scroll;
+ }
+
+ .lContent {
+    position: absolute;
+    z-index: 41;
+    width:800px;
+    height:600px;
+    top:100%;
+    left:500px;
+    transition: top 0.3s;
+    overflow-y: scroll;
+ }
+
+ .letmecookLogo {
+    position: absolute;
+    z-index: 42;
+    width:250px;
+    top:100%;
+    left:25px;
+    transition: top 0.3s;
+    
+ }
+
+ .imagesButton {
+    color:white; 
+    font-weight: bold; 
+    cursor: pointer; 
+    border: 1px solid white; 
+    width:fit-content; 
+    padding:15px;
+    transition: color 0.3s, border-color 0.3s;
+ }
+
+ .imagesButton:hover {
+    color:#FFA900;
+    border-color: #FFA900;
+ }
+
+ .gImages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    gap:10px;
+ }
+
+ .gImages img {
+    width:700px;
+ }
+
+ .lImages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    gap:10px;
+ }
+
+ .lImages img {
+    width:700px;
+ }
+
+ .gSide {
+    position: absolute;
+    z-index: 42;
+    width:250px;
+    top:100%;
+    left:25px;
+    transition: top 0.3s;
+    color: white;
+    font-family: Work Sans;
+ }
+
+ .lSide {
+    position: absolute;
+    z-index: 42;
+    width:190px;
+    top:100%;
+    left:25px;
+    transition: top 0.3s;
+    color: white;
+    font-family: Work Sans;
+ }
+
+ .projectsOption {
+    color: white;
+    transition: color 0.3s;
+ }
+
+ .aboutOption {
+    transition: color 0.3s;
+ }
+
+ .contactOption {
+    transition: color 0.3s;
+ }
